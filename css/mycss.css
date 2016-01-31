@@ -1,8 +1,14 @@
+body{
+	margin: 2%;
+}
+
 h1{
 	background: #D0D0D0;
 	font-size: 200%;
 	font-family: Arial;
 	color: #FFFFFF;
+	margin: 0 auto;
+	margin-bottom: 10px;
 }
 
 
@@ -12,29 +18,37 @@ header{
 }
 
 nav{
-	font-variant: small-caps;
+	font-variant: capitalize;
 	font-size: 150%;
 	font-family: Arial;
+	height: 40px;
+}
+
+a{
+	padding: 10px;
+	padding-bottom: 10px;
 }
 
 div{
-	width: 45%;
+	width: 46%;
 	height: 500px;
 	margin: 5px;
 	margin: 0 auto;
 	margin-top: 10px;
-	border: 10px solid #666666;
+	border: 10px;
 	padding: 15px;
 	text-align: center;
 	display: inline-block;
+	float: left;
 }
 
 img{
 	width: 60%;
+
 }
 
 p{
-	text-align: center;
+	text-align: justify;
 	font-size: 20px;
 }
 
@@ -43,4 +57,5 @@ footer{
 	font-family: Arial;
 	color: #FFFFFF;
 	text-align: center;
+	clear: both;
 }
