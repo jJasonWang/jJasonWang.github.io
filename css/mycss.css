@@ -52,11 +52,9 @@ nav a:hover{
 
 div{
 	width: 46%;
-	height: 500px;
 	margin: 5px;
 	margin: 0 auto;
 	margin-top: 10px;
-	border: 10px;
 	padding: 15px;
 	text-align: center;
 	display: inline-block;
@@ -64,13 +62,13 @@ div{
 }
 
 img{
-	width: 60%;
+	height: 400px;
 
 }
 
 p{
 	text-align: justify;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 footer{
