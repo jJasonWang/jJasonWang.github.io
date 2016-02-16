@@ -69,6 +69,7 @@ img{
 p{
 	text-align: justify;
 	font-size: 24px;
+	font-family: Calibri;
 }
 
 footer{
@@ -77,4 +78,23 @@ footer{
 	color: #FFFFFF;
 	text-align: center;
 	clear: both;
+}
+
+.projectlink{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0 5px 0 5px;
+	border: 2px solid #FFFFFF;
+	border-radius: 3px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #FFFFFF;
+	background: rgba(0, 0, 0, 0.8);
+	opacity: 0.75;
+	transition: 1s ease;
+}
+
+.projectlink:hover{
+	opacity: 1;
 }
