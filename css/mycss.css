@@ -80,19 +80,27 @@ footer{
 	clear: both;
 }
 
+.link{
+	margin: 25px;
+	padding: 10px;
+	display: inline-block;
+	width: 50%;
+}
+
 .projectlink{
 	display: inline-block;
 	text-decoration: none;
+	text-align: justify;
 	padding: 10px;
 	margin: 0 5px 0 5px;
 	border: 2px solid #FFFFFF;
-	border-radius: 3px;
+	border-radius: 5px;
 	font-family: Arial;
 	font-size: 20px;
 	color: #FFFFFF;
 	background: rgba(0, 0, 0, 0.8);
 	opacity: 0.75;
-	transition: 1s ease;
+	transition: 0.5s ease;
 }
 
 .projectlink:hover{
