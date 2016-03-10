@@ -1,12 +1,17 @@
 body{
 	top: 0;
-	background-color: #E7E7E7;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
 }
 
-h1{
+.web{
+	background-color: #E7E7E7;
+}
+
+/* ----------header---------- */
+/* title */
+#name{
 	padding-top: 10px;
 	font-size: 250%;
 	font-family: Arial;
@@ -17,40 +22,40 @@ h1{
 	margin-left: 50px;
 }
 
-
 header{
 	text-align: center;
 	display: block;
 	background: #404040;
 }
 
-nav{
+header nav{
 	font-variant: capitalize;
-	font-size: 150%;
+	font-size: 25px;
 	font-family: Arial;
 	height: 40px;
+	width: 530px;
 	margin-top: 5px;
 	display: inline-block;
 	padding-left: 250px;
 }
 
-nav a{
+header nav a{
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.6);
 
 }
 
-nav a:hover{
+header nav a:hover{
 	color: rgba(255, 255, 255, 0.8);
 }
 
 .active{
 	color: rgba(255, 255, 255, 0.95);
-	font-weight: bold;
+	font-weight: 600;
 }
 
-div{
+.two_col{
 	width: 46%;
 	margin: 5px;
 	margin: 0 auto;
@@ -66,12 +71,13 @@ img{
 
 }
 
-p{
+#intro{
 	text-align: justify;
 	font-size: 24px;
 	font-family: Calibri;
 }
 
+/* ----------footer---------- */
 footer{
 	background: #D0D0D0;
 	font-family: Arial;
@@ -80,9 +86,12 @@ footer{
 	clear: both;
 }
 
+/* ----------Project---------- */
 .link{
-	margin: 25px;
-	padding: 10px;
+	margin: 5px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 15px;
 	display: inline-block;
 	width: 50%;
 }
