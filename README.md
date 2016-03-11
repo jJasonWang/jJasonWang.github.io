@@ -1,2 +1,2 @@
 # jJasonWang.github.io
-HI
+This is Chih-Hui personal website.
